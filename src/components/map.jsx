@@ -3,6 +3,7 @@ import { GoogleMap, LoadScript } from "@react-google-maps/api";
 import Searchbar from "./smallerComponents/sreachbar";
 import "../styles/map.css";
 const Map = ({
+  onsubmit,
   countryName,
   citiesearch,
   handleMapClick,

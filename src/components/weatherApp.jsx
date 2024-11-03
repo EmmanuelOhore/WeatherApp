@@ -202,6 +202,7 @@ const WeatherApp = () => {
                 element={
                   <Map
                     countryName={countryName}
+                    onsubmit={handlesubmit}
                     citiesearch={handleCitieSearch}
                     longitude={longitude}
                     latitude={latitude}
@@ -244,7 +245,6 @@ const WeatherApp = () => {
                 element={
                   <Mapforcast
                     countryName={countryName}
-                    onsubmit={handlesubmit}
                     weatherData={weatherData}
                     weathericon={getWeatherIcon}
                     handlecityasign={handlecityasign}
