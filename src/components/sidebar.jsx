@@ -11,8 +11,7 @@ const SideBar = () => {
       <nav className="side-bar-content">
         <ul>
           <li>
-            <i class="fa-solid fa-cloud-sun"></i>{" "}
-            <Link to="/WeatherApp/">Weather</Link>
+            <i class="fa-solid fa-cloud-sun"></i> <Link to="/">Weather</Link>
           </li>
           <li>
             <i class="fa-solid fa-list"></i>
